@@ -1,0 +1,181 @@
+
+
+@media (max-width: 1024px) {
+
+    .about h2 {
+    margin-top: 20px;
+  
+    line-height: 1;
+}
+ .about__img img{
+     width: 450px;
+    height: 310px;
+}
+ .container__contact {
+
+ grid-template-columns: repeat(2, 400px);
+ grid-template-rows: repeat(2, 250px);
+ place-content: center;
+
+}
+
+.contact {
+    padding-top: 30px;
+}
+.contact__pag{
+     padding: 30px 0 0 50px;
+     width: fit-content;
+
+}
+}
+
+
+
+@media (max-width: 900px) {
+    section#services .cards {
+        grid-template-columns: repeat(2, 1fr);
+       
+
+    }
+      section#services .services__inf {
+        display: grid;
+        grid-template-columns: repeat(2, 300px);
+
+        /* justify-content: center; */
+
+    }
+    section#services .services__inf h2 {
+        font-size: clamp(18px, 3vw, 22px);
+
+    }
+    
+section#services .cards__2 {
+   display: grid;
+   grid-template-columns: repeat(2, 220px);
+    gap: 30px;
+  }
+
+   .about {
+    display: grid;
+    grid-template-columns: repeat(1, .5fr);
+    justify-content: center;
+    margin: auto;
+    
+  }
+
+  .about__text {
+    padding: 20px 0 0 20px;
+
+}
+ .container__contact {
+
+ grid-template-columns: repeat(1, 500px);
+ grid-template-rows: repeat(2, 320px);
+ place-items: center;
+}
+
+ .contact, .contact__pag  {
+    
+    padding: 0px 0 0px 0px;
+    width: 100%;
+ 
+} 
+.contact__pag p {
+ padding: 0;
+}
+.contact__pag p:nth-child(2){
+   
+    padding: 20px 0 10px 0px;
+   
+
+}
+.contact__img {
+    width: 100%;
+}
+.contact__pag .contact__img img {
+    width: 70%;
+ 
+}
+section#localizacao .maps {
+   
+  
+    height:380px;
+   
+}
+}
+
+@media (max-width: 700px) {
+    section#services .cards {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+    section#services .cards article  {
+    border-bottom: 1px solid #fff;
+}
+    section#services .cards article strong {
+    font-size: 20px;
+}
+section#services article p {
+    font-size: 16px;
+}
+    section#services .services__inf {
+        display: grid;
+        grid-template-columns: repeat(2, 250px);
+       }
+
+section#services .services_car {
+    width: 350px;
+  
+}
+.container__contact {
+ grid-template-columns: repeat(1,400px);
+ place-content: center;
+ gap: 0;
+ 
+}
+.contact {
+ padding: 0px 0px 0 0px;
+    
+}
+
+
+}
+@media (max-width: 500px) {
+
+    section#hero {
+
+    display: grid;
+    grid-template-rows: 600px;
+   
+
+}
+    section#services .cards {
+        grid-template-columns: repeat(1, 1fr);
+       
+    }
+    section#services .services__inf {
+        display: grid;
+        grid-template-columns: repeat(1, 250px);
+
+    }
+    section#services .cards__2 {
+   display: grid;
+   grid-template-columns: repeat(1, 250px);
+  
+
+}
+ .about__img img{
+     width: 300px;;
+    height: 210px;
+}
+
+ .container__contact {
+ 
+ grid-template-columns: repeat(1, 280px);
+ grid-template-rows: repeat(2, 350px);
+ 
+}
+
+ 
+}
+

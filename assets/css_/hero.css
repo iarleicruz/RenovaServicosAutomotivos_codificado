@@ -1,0 +1,112 @@
+
+section#hero {
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 540px;
+    margin-left: calc(-50vw + 50%);
+    width: 100vw;
+    background: linear-gradient(to right, rgba(0, 0, 0, 9) 10%, rgba(0, 0, 0, .9) 35%, rgba(0, 0, 0, .5), rgba(0, 0, 0, .7)), url(/assets/img/hero.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+
+}
+section#hero .hero{
+ padding-left: 40px ;
+
+}
+ 
+ section#hero p {
+    color: rgb(30, 164, 253);
+    font-size: clamp(.8rem, 1vw, 1.1rem);
+    padding: 20px 0 0px 0px;
+
+}
+section#hero h1{
+    font-size: clamp(22px, 5vw, 48px);
+    padding: 30px 0 20px 0px;
+    color: #fff;
+    width: 70%;
+    font-family: serif;
+    font-weight: 700;
+}
+section#hero h1 span{
+    color: rgb(30, 164, 253);
+    /* font-size: 3rem; */
+    font-size: clamp(22px, 5vw, 48px);
+
+}
+section#hero p:nth-child(3) {
+    max-width: 500px;
+    line-height: 1.5;
+    color: #ffffffcf;
+    padding: 20px 0 0px 0px;
+    display: flex;
+    font-size: clamp(12px, 3vw, 16px);
+}
+section#hero .cta__hero {
+    display: flex;
+    flex-wrap: wrap;
+     /* width: 40%; */
+    height: auto;
+    margin: 10px 0 20px 0;
+    gap: 15px;
+    width: auto;
+
+}
+
+section#hero .cta__hero a {
+    margin: 20px 0px;
+    /* background: #014984; */
+    background: linear-gradient(to right, #fff, #678faf);
+    color: #014984;
+    width: 4%;
+    min-width: 150px;
+    height: 40px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: clamp(12px, 2vw, 16px);
+
+}
+section#hero .cta__hero a:hover {
+        background: linear-gradient(to right, #678faf, #fff);
+
+}
+section#hero .cta__hero a:nth-child(2) {
+    text-decoration: none;
+    margin: 20px 0px;
+    background: transparent;
+    color: #fff;
+    width: 4%;
+    height: 40px;
+    border-radius: 3px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+section#hero .cta__hero a:nth-child(2) img {
+    width: 20px;
+    margin-left: 10px;
+}
+section#hero .cta__hero a:nth-child(2):hover {
+ border: 1px solid #888282;
+
+}
+
+section#hero div p:nth-last-child(1) {
+    color: #ffffffcf;
+    font-size: clamp(14px, 2vw, 16px);
+    display: flex;
+    align-items: center;  
+    gap: 5px;
+    padding: 10px 20px 25px 0px;
+
+}
+section#hero div p:nth-last-child(1) img{
+   width: 20px;
+  
+
+}

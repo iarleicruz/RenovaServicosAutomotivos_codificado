@@ -1,0 +1,101 @@
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.7); /* Black w/ opacity */
+  
+}
+
+
+
+/* Modal Content/Box */
+
+.modal-content {
+  background: #014984;
+  margin: 1% auto; /* 15% from the top and centered */
+  padding: 10px;
+  width: 35%; /* Could be more or less, depending on screen size */
+  border-radius: 26px;
+  box-shadow: 8px 8px 8px  #163553;
+
+}
+.modal-content form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2.5rem;
+  padding: 0 5px 20px 5px;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+
+}
+
+.modal-content form div {
+  font-size: 16px;
+  color: #014984;
+  width: 70%;
+ line-height: 1.5;
+ padding: 5px;
+ background: linear-gradient(to right, #678faf, #fff);
+ border-radius: 8px;
+ text-align: center;
+}
+
+.modal-content form input,
+.modal-content form select,
+.modal-content form textarea {
+  margin: 5px;
+  width: 70%;
+  padding: 5px;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+  
+}
+
+
+/* The Close Button */
+.close {
+  color: #b8b1b1;
+  float: right;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: whitesmoke;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn {
+cursor: pointer;
+background: linear-gradient(to right, #fff, #678faf);
+/* background: transparent; */
+color: #014984;
+height: 40px;
+transition: filter .2s;
+transition-behavior: normal;
+transition-duration:  all ease 5s;
+font-weight: bold;
+font-size: large;
+}
+
+.btn:hover {
+/* background: linear-gradient(to right, #014984, #fff); */
+background: linear-gradient(to right, #678faf, #fff);
+
+}
+
+.modal-content form p {
+  font-size: 14px;
+  margin: 5px 0 0px 0;
+  color: white;
+}

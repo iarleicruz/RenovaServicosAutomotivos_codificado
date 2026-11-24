@@ -1,0 +1,140 @@
+
+section#servicos .servicos__requisitos{ 
+    /* display: grid; */
+    /* grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-template-rows: repeat(1, 100px); */
+    /* grid-template-columns: repeat(auto-fit, minmax(100px, 280px));
+    grid-template-rows: repeat(1, 100px); */
+    /* position: absolute;
+    left: 0;
+    right: 0;  */
+      /* top: 624px; */
+    display: flex;
+     background: #014984;
+     color: white;
+     flex-wrap: wrap;
+     justify-content: center;
+     width: 100vw;
+     margin-left: calc(-50vw + 50%);
+   
+     
+
+   }
+section#servicos .servicos__requisitos .item__1,
+section#servicos .servicos__requisitos .item__2,
+section#servicos .servicos__requisitos .item__3,
+section#servicos .servicos__requisitos .item__4 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 280px;
+   height: 100px; 
+  
+}
+section#servicos .servicos__requisitos .item__1 {
+    border-right: 1px solid rgb(184, 177, 177);
+}
+section#servicos .servicos__requisitos .item__2 {
+    border-right: 1px solid rgb(184, 177, 177);
+}
+section#servicos .servicos__requisitos .item__3 {
+    border-right: 1px solid rgb(184, 177, 177);
+}
+section#servicos .servicos__requisitos .item__1 div,
+section#servicos .servicos__requisitos .item__2 div,
+section#servicos .servicos__requisitos .item__3 div,
+section#servicos .servicos__requisitos .item__4 div {
+   display: flex;
+   flex-direction: column;
+   margin: 5px;
+    
+  
+}
+
+section#servicos .servicos__requisitos img{
+    width: 30px;
+    margin: 0 0px 20px 0;
+}
+section#servicos .servicos__requisitos  strong{
+    font-size: 14px;
+    color: #fff;
+    /* width: 100%; */
+    background-color: #014984;
+
+}
+section#servicos .servicos__requisitos p{
+    width: 200px;
+    margin: 5px 0px 0 0px;
+    color: #b8b1b1;
+    font-size: 14px;
+}
+
+
+section#servicos .servicos {
+    /* display: grid;
+    grid-template-columns: repeat(1, 1fr); */
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    
+}
+section#servicos .servicos h6{
+      font-size: 14px;
+    color: rgb(96, 94, 94);
+    margin: 20px 0px 0px 20px;
+}
+section#servicos .servicos h5{
+  margin: 30px 0 30px 20px;
+  font-size: 32px;
+}
+section#servicos .servicos p{
+  margin: 100px 0 30px 20px;
+  font-size: 16px;
+    color: rgb(96, 94, 94);
+
+}
+section#servicos .servicos__tipos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+section#servicos .servicos__tipos div{
+    width: 250px;
+    height: 230px;
+    border: 1px solid rgb(226, 220, 220);
+    padding: 20px;
+    border-radius: 3px;
+    margin: auto;
+}
+
+section#servicos .servicos__tipos img{
+    width: 30px;
+        margin: 10px 0 20px 0;
+}
+section#servicos .servicos__tipos strong{
+     display: flex;
+    padding: 0px 0 0px 5px;
+
+}
+section#servicos .servicos__tipos p{
+        text-align: left;
+    padding: 20px 0 20px 5px;
+
+}
+
+section#servicos .servicos__inf{
+   display:flex;
+   justify-content: center;
+   margin: 30px;
+   align-items: center;
+   gap: 5px;
+    color: rgb(96, 94, 94);
+
+}
+section#servicos .servicos__inf img{
+   width: 30px;
+
+}

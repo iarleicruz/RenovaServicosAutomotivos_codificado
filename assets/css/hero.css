@@ -1,0 +1,64 @@
+#hero {
+    padding-top: 80px;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.hero p {
+    padding: 15px;
+    font-size: clamp(16px, 5vw, 18px);
+}
+.hero h1 {
+    font-size: clamp(22px, 5vw, 48px);
+    padding: 15px;
+}
+
+.hero p:nth-child(3) {
+    font-size: clamp(16px, 5vw, 20px);
+    line-height: 1.5;
+    min-width: 80%;
+    width: 50px;
+   
+}
+.cta__hero {
+    
+    width: 400px;
+    margin: 20px 0;
+}
+.cta__hero a{
+    margin: 12px;
+    text-align: center;
+
+}
+.cta__hero a:nth-child(1){
+    padding: 15px;
+    gap: 5px;
+    background-color: blue;
+    color: white;
+}
+.cta__hero a:nth-child(2){
+    padding: 15px ;
+    gap: 5px;
+    background-color: aquamarine;
+    
+}
+
+
+.hero p:nth-child(5){
+    font-size: clamp(16px, 5vw, 20px);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+
+@media (max-width: 500px) {
+.cta__hero {
+   display: grid;
+   width: 200px;
+}
+}

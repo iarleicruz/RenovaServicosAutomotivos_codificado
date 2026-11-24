@@ -1,0 +1,101 @@
+#contact {
+ /* margin-top: 40px; */
+}
+.container__contact {
+ /* display: grid; */
+ /* grid-template-rows: repeat(2, 250px); */
+ /* justify-content: center; */
+ /* justify-items: center; */
+  /* width: 100vw;
+ margin-left: calc(-50vw + 50%);  */
+ /* background: #F1F1F1; */
+ /* background-color: #014984; */
+ display: grid;
+ grid-template-columns: repeat(2, 1fr);
+ grid-template-rows: repeat(2, 250px);
+
+ 
+}
+.contact {
+ /* padding: 50px 0 0 120px; */
+ padding: 50px 0 0 0px;
+ width: fit-content;
+    
+}
+
+.container__contact h6{
+    
+   color: rgb(96, 94, 94);
+   font-size: clamp(14px, 3vw, 16px);
+   padding: 40px 0 0px 0px;
+}
+.container__contact h2{
+    color: black;
+    /* font-size: clamp(22px, 3vw, 32px); */
+  font-size: clamp(22px, 4vw, 32px);
+
+    padding: 30px 0 0px 0px;
+}
+.container__contact p{
+    color: rgb(96, 94, 94);
+    font-size: clamp(15px, 3vw, 18px);
+    padding: 30px 0 0px 0px;
+}
+
+.container__contact a{
+   
+    color: rgb(96, 94, 94);
+    font-size: clamp(12px, 3vw, 16px);
+    gap: 5px;
+    display: flex;
+    margin-top: 15px;
+    font-weight: 500;
+    
+}
+.container__contact img {
+    display: flex;
+    width: 15px;
+    height: 18px;
+    gap: 15px;
+
+}
+
+.contact__pag{
+     padding: 50px 0 0 50px;
+     width: fit-content;
+
+}
+.container__contact .contact__pag p{
+    color: black;
+    /* font-size: clamp(22px, 3vw, 32px); */
+   font-size: clamp(22px, 4vw, 32px);
+
+    padding: 90px 0 0px 0px;
+    font-weight: 600;
+    line-height: 1.2;
+
+}
+.container__contact .contact__pag p small{
+    color: rgba(0, 0, 0, 0.344);
+    font-size: clamp(18px, 3vw, 18px);
+    padding: 30px 0 0px 0px;
+    line-height: 1.2;
+
+}
+.container__contact .contact__pag p:nth-child(2){
+    color: black;
+    font-size: clamp(18px, 5vw, 22px);
+    padding: 50px 0 10px 0px;
+    font-weight: 500;
+
+}
+
+.contact__img {
+    width: 100%;
+}
+.container__contact .contact__pag .contact__img img {
+    width: 80%;
+     height: 60px; 
+    border-radius: 8px;
+    object-fit: contain;
+}

@@ -1,0 +1,43 @@
+#contato {
+    max-width: 100vw;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    margin-top: 20px;
+    /* background: rgb(1, 73, 132); */
+    background: #F1F1F1;
+    border-radius: 30px 30px 0px 0px;
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    justify-content: space-around;
+}
+#contato div {
+        max-width: 85%;
+        padding: 20px;
+
+}
+#contato h6{
+     /* color: rgb(184, 177, 177); */
+     color: #014984;
+    font-size: 16px;
+    padding: 40px 0 0px 20px;
+}
+#contato h2{
+     color: #014984;
+    font-size: 32px;
+    width: 500px;
+    padding: 30px 0 0px 20px;
+}
+#contato p{
+    color: #014984;
+    margin: 10px 0 50px 20px;
+    font-size: 18px;
+}
+#contato a {
+    text-decoration: none;
+     color: #014984;
+    display: flex;
+    justify-content: left;
+    gap: 5px;
+    margin: 40px 0 -30px 0;
+}

@@ -1,0 +1,56 @@
+footer {
+    display: grid;
+    grid-template-columns: repeat(3, .3fr);
+    place-content: center;
+    padding: 80px 0 0 0;
+}
+
+.footer__info img{
+width: 200px;
+}
+.footer__info p,
+.footer__contato p,
+.links__uteis p {
+    padding: 20px 0 0 0;
+}
+.footer__contato,
+.footer__info{
+    display: grid;
+    padding: 20px;
+
+}
+.footer__contato b{
+    padding: 12px 0 0 0;
+
+}
+.footer__contato a{
+    padding:8px 0 0 0;
+
+}
+.links__uteis{
+    padding: 20px;
+}
+.links__uteis a{
+    display: grid;
+    padding: 8px;
+}
+.copy {
+    padding: 20px;
+}
+.copy p{
+   line-height: 1.5;
+}
+
+@media (max-width: 900px) {
+footer {
+    grid-template-columns: 1fr;
+    place-content: initial;
+}
+
+
+}
+
+
+@media (max-width: 500px) {
+
+}

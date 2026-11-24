@@ -1,0 +1,130 @@
+footer {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 350px 250px 300px;
+    padding: 80px 0 0;
+    text-align: right;
+    color:#014984;
+    font-size: 16px;
+    
+}
+.footer__info{
+    display: grid;
+    text-align: left;
+    line-height: 1.5;
+    padding: 18px;
+
+}
+.footer__info p{
+        color: #014984;
+
+
+}
+.footer__info p:nth-child(3){
+    color: black;
+    margin-top: 20px;
+
+}
+.footer__contato {
+    display: grid;
+    text-align: left;
+    padding: 20px 30px 0 0;
+    color: #014984;
+}
+.footer__contato p {
+    padding: 10px 0 10px 0;
+    color: black;
+}
+.footer__contato a {
+    color:#014984;
+    padding: 5px 0 10px 0;
+
+}
+.footer__contato a:hover{
+     color: #1e83d5;
+}
+footer img {
+    width: 200px;
+    padding: 0 0 20px 0;
+}
+
+/* footer p:nth-child(2) {
+  padding: 0px 0 20px 0;
+   color: #004883;
+} */
+
+.links__uteis {
+ display: grid;
+ padding: 30px 0 0 0;
+ height: 0;
+
+}
+.links__uteis p {
+ text-align: left;
+ color: black;
+}
+ .links__uteis a {
+ display: grid;
+ color:#014984;
+text-align: left;
+padding: 10px 0 0px 0;
+}
+ .links__uteis a:hover {
+ color: #1e83d5;
+}
+
+.copy {
+    display: grid;
+    grid-column: span 4;
+    padding: 50px;
+
+}
+.copy p {
+    padding: 0px;
+     color:#014984;
+
+}
+.whatsapp {
+    position: fixed;
+    right: 18px;
+    bottom: 18px;
+    width: 62px;
+    height: 62px;
+    z-index: 80;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    filter: drop-shadow(0 12px 22px rgb(198, 198, 211));
+    transition: transform .28s ease,filter .28s ease;
+    animation: whatsappPulse 2.5s ease-in-out infinite;
+    background: #014984;
+    cursor: pointer;
+}
+
+.whatsapp img {
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+    /* display: block; */
+}
+
+.whatsapp:hover {
+    transform: translateY(-5px) scale(1.08);
+    filter: drop-shadow(0 16px 28px rgb(1, 73, 132));
+}
+
+.whatsapp:focus-visible {
+    outline: 3px solid #fff;
+    outline-offset: 4px;
+}
+
+@keyframes whatsappPulse {
+    0%,100% {
+        transform: scale(1)
+    }
+
+    50% {
+        transform: scale(1.045)
+    }
+}

@@ -1,0 +1,179 @@
+
+/* section#services .servicos__requisitos{
+     display: grid;
+     grid-template-columns: repeat(4, 280px);
+     justify-content: center;
+     background: #014984;
+     width: 100vw;
+     margin-left: calc(-50vw + 50%);
+
+} */
+
+/* section#services__req{
+     background: #014984;
+
+} */
+section#services .cards {
+    display: grid;
+    grid-template-columns: repeat(4, 21%);
+    gap: 18px;
+    background: #014984;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    align-items: center;
+    justify-content: center;
+    
+}
+.cards article {
+    padding: 30px 10px 30px 10px;
+    display: flex;
+    gap: 5px;
+    margin: auto;
+    
+}
+ 
+section#services .cards article img{
+    width: 20px;
+}
+section#services .cards article strong{
+    font-size: 18px;
+
+    color: #fff;
+
+}
+section#services article p{
+    width: fit-content;
+    margin: 10px 0px 0 0px;
+    color: #b8b1b1;
+    font-size: 14px;
+}
+
+
+
+section#services .services__inf {
+    display: grid;
+    grid-template-columns: repeat(2, 450px);
+    grid-template-rows: repeat(2, 60px);
+    margin: 80px;
+    justify-content: center;
+
+}
+section#services .services__inf div:nth-child(2) {
+    display: grid;
+    margin: auto;
+
+
+}
+section#services .services__inf h6{
+     font-size: clamp(14px, 1vw, 16px);
+     color: rgb(96, 94, 94);
+}
+section#services .services__inf h2{
+  margin: 30px 0 0px 0px;
+  font-size: clamp(18px, 4vw, 32px);
+  color: #004883;
+}
+section#services .services__inf p{
+
+  margin: 60px 0 0px 0px;
+  font-size: clamp(14px, 2vw, 18px);
+   color: rgb(96, 94, 95);
+
+}
+
+
+section#services .cards__2 {
+   display: grid;
+   grid-template-columns: repeat(4, 220px);
+   gap: 10px;
+   justify-content: center;
+   /* margin-top: 40px; */
+
+}
+section#services .cards__2 article{
+    border: 1px solid rgb(226, 220, 220);
+    padding: 20px;
+    border-radius: 3px;
+    transition: all .3s;
+}
+section#services .cards__2 article:hover{
+     border: 1px solid rgb(190, 191, 255);
+     background: rgba(12, 16, 249, 0.044);
+
+
+}
+section#services .cards__2 article img{
+    width: 30px;
+    margin: 10px 0 20px 0;
+}
+section#services .cards__2 article strong{
+     display: flex;
+    padding: 0px 0 0px 5px;
+
+}
+section#services .servicos__tipos p{
+    padding: 20px 0 20px 5px;
+    color: rgb(96, 94, 94);
+
+}
+
+section#services .services_car{
+   /* display:flex;
+   justify-content: center;*/
+  padding: 20px;
+   align-items: center; 
+   display: flex;
+    margin: 30px auto;
+   width: fit-content;
+   gap: 5px;
+   color: rgb(141, 138, 138);
+   font-size: 18px;
+
+}
+section#services .services_car img{
+   width: 30px;
+
+}
+section#service__information{
+    padding-top: 50px;
+}
+section .service__information {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 70px 20px 70px;
+    background: #014984;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    text-align: center;
+    height: 165px;
+    
+
+}
+section .service__information h2 {
+   margin-top: 20px;
+  font-size: clamp(18px, 4vw, 32px);
+  color: #fff;
+}
+section .service__information p {
+    color: rgb(202, 199, 199);
+    font-size: clamp(12px, 3vw, 18px);
+}
+section .service__information a {
+     display: grid;
+     min-width: 200px;
+     height: 40px;
+     background: linear-gradient(to right, #fff, #678faf);
+     align-items: center;
+     margin: auto;
+     border-radius: 3px;
+     color: #014984;
+     transition: .5s all ease-in-out;
+
+}
+section article a:hover {
+         background: linear-gradient(to right, #678faf, #fff);
+
+
+}
+
+

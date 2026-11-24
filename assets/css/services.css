@@ -1,0 +1,140 @@
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4, .2fr);
+    background-color: rgb(5, 8, 96);
+    margin-left: calc(-50vw + 50%);
+    width: 100vw;
+    place-content: center;
+}
+
+.cards article {
+     display: grid;
+    padding: 20px;
+    line-height: 1.5;
+    height: 100px ;
+    border: 1px solid rgba(255, 255, 255, 0.314);
+
+    
+}
+.cards article div {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    width: 220px;
+
+}
+.cards article img {
+    width: 15px;
+}
+.cards article strong {
+    color: aliceblue;
+
+}
+.cards article div p {
+    color: rgb(145, 148, 151);
+    padding-left: 20px;
+
+}
+.services__inf {
+    display: grid;
+    grid-template-columns: repeat(2, .7fr);
+    place-items: center;
+    padding-top: 80px;
+}
+.services__inf h6 {
+   padding: 20px;
+   font-size: clamp(16px, 4vw, 16px);
+}
+.services__inf h2 {
+   padding: 20px;
+   font-size: clamp(16px, 5vw, 32px);
+}
+.services__inf p {
+   font-size: clamp(16px, 5vw, 20px);
+   padding-top: 50px;
+   width: 80%;
+}
+
+.cards__2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    margin: 40px 0;
+    place-items: center;
+    gap: 10px;
+
+}
+
+.cards__2 img{
+  width: 50px;
+  padding-bottom: 20px;
+  
+}
+.cards__2 article{
+    display: grid;
+    padding: 20px;
+    border: 1px solid rgb(170, 164, 164);
+
+}
+.cards__2 article strong{
+    padding: 0px 0 15px 0;
+}
+
+.services_car {
+   display: flex;
+   align-items: center;
+   gap: 8px;
+   justify-content: center;
+   height: 50px;
+}
+.services_car img{
+   width: 30px;
+}
+
+@media (max-width: 900px) {
+.services__inf {
+  grid-template-columns: 1fr;
+    grid-template-rows: repeat(2,1fr);
+
+  
+}
+.services__inf div{
+display: grid;
+width: 80%;
+
+}
+.services__inf h2 {
+    padding: 50px 0 0 0; 
+}
+ .cards {
+    grid-template-columns: repeat(2,1fr);
+    /* gap: 30px; */
+    border: 1px solid rgba(255, 255, 255, 0.314);
+
+ }
+ .cards__2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    place-items: center;
+}
+
+}
+@media (max-width: 500px) {
+ .cards {
+    grid-template-columns: 1fr;
+    gap: 0;
+
+ }
+ .cards article {
+    border: 1px solid rgba(255, 255, 255, 0.314);
+    
+
+ }
+  .cards__2 {
+    grid-template-columns: repeat(1, 1fr);
+}
+.services_car {
+   display: flex;
+   align-items: start;
+}
+}
